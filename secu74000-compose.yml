@@ -26,17 +26,19 @@ services:
       OC_USER: "admin"
       OC_PASS: "p@ssw0rd"
 
-  #  codeserver:
-  #    image: stevehendrikse/malwarelabcodeserver:3.0
-  #    ports:
-  #      - 8001:8001
-  #    expose:
-  #      - 8001
-  #    links:
-  #      - owncloud
-  #    environment:
-  #      OC_IP: owncloud
-  #      OC_USER: "admin"
-  #      OC_PASS: "p@ssw0rd"
+# uncomment these lines if you wish to also have a useful
+# text editor available on port 8001
+#  codeserver:
+#    image: stevehendrikse/malwarelabcodeserver:5.0
+#    ports:
+#      - 8001:8001
+#    expose:
+#      - 8001
+#    links:
+#      - owncloud
+#    environment:
+#      OC_IP: owncloud
+#      OC_USER: "admin"
+#      OC_PASS: "p@ssw0rd"
 
 

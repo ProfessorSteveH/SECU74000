@@ -6,6 +6,7 @@ Minor update 2024-12-23
 - with Kali 2024.3, the sudo apt install docker-compose is no longer fully supported
 - follow instruction on downloading docker compose plugin
 - the bash script updated to allow for this new version of docker compose
+- update the commented lines for codeserver container
 
 Updated on 2024-12-21
 - pushed into 'yearless' repo
