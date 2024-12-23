@@ -16,7 +16,7 @@ services:
   jupyter:
     image: stevehendrikse/malwarelabjupyter:5.0
     ports:
-      - 8000:8000
+      - 8000:8888
     expose:
       - 8000
     links:
