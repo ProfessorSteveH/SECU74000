@@ -18,4 +18,4 @@ else
 	export EXT_IP=$(ip route | grep eth0 | awk -F"src " 'NR==1{split($2,a," ");print a[1]}')
 fi
 
-docker-compose -f secu74000-compose.yml up -d
+docker compose -f secu74000-compose.yml up -d

@@ -2,6 +2,11 @@
 
 These are the files for SECU-74000.
 
+Minor update 2024-12-23
+- with Kali 2024.3, the sudo apt install docker-compose is no longer fully supported
+- follow insturction on downloading docker compose plugin
+- the bash script updated to allow for this new version of docker compose
+
 Updated on 2024-12-21
 - pushed into 'yearless' repo
 - updated versions
