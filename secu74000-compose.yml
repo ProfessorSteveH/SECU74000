@@ -1,8 +1,8 @@
-# docker-compose.yml for Fall 2025
+# docker-compose.yml for Winter 2026
 
 services:
   owncloud:
-    image: stevehendrikse/malwarelabowncloud:6.0
+    image: stevehendrikse/malwarelabowncloud:7.0
     ports:
       - 80:80
     expose:
@@ -14,7 +14,7 @@ services:
       - '${HOME}/secu74000:/mnt/data/files:cached'
   
   jupyter:
-    image: stevehendrikse/malwarelabjupyter:7.0
+    image: stevehendrikse/malwarelabjupyter:8.0
     ports:
       - 8000:8888
     expose:
@@ -29,7 +29,7 @@ services:
 # comment these lines if you do not wish to run a
 # text editor on port 8001
   codeserver:
-    image: stevehendrikse/malwarelabcodeserver:7.0
+    image: stevehendrikse/malwarelabcodeserver:8.0
     ports:
       - 8001:8001
     expose:

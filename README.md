@@ -2,6 +2,9 @@
 
 These are the files for SECU-74000.
 
+Update 2025-12-03
+- new versions of all software and tools
+
 Update 2025-08-05
 - new versions of containers
 - new options for compose files:
