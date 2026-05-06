@@ -16,7 +16,7 @@ Update 2025-08-05
   - option USE_OWNCLOUD=YES must be used if 'backend'ed to owncloud.  If owncloud container is linked to this container, no need specify address.  Otherwise, OC_URL should be used to specify the entire URL of the owncloud server
   - option OC_USER=username is the username to be used for remote owncloud
   - option OC_PASS=password is the password to be used for remote owncloud
-- if you wish to use an external volume:
+- if you wish to use an external volumei (and please create directory ./data first):
   - for codeserver use:
 ```
     volumes:
